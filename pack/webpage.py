@@ -52,14 +52,16 @@ num_bus_found = driver.find_elements(By.XPATH,
                                      '//div[@class="busListingContainer"]/div[contains(@class, "busCardContainer")]')
 num_count = len(num_bus_found)
 print(num_count, "Buses found")
-bus_name = []
+scroll_rate = 200
 for i in range(1, num_count + 1):
-    bus_names = driver.find_element(By.XPATH, f'(//div[@class="busCardContainer "]//p)[{i}]')
-    print("Bus Names are : " + bus_names.text)
-    bus_name.append(bus_names.text)
-    # time.sleep(1)
-    # bus_names.click()
-    # seats_available = driver.find_elements(By.XPATH, '//span[@data-testid="seat_horizontal_sleeper_available"]')
-    # print("Available Seats", len(seats_available))
-print(bus_name)
+    driver.execute_script("document.body.style.zoom='0.5'")
+    # driver.execute_script(f"window.scrollBy(0, {scroll_rate});")
+    driver.find_element(By.XPATH, f'(//div[text() = "Select Seats"])[{i}]').click()
+    time.sleep(1)
+    seats_available = driver.find_elements(By.XPATH,
+                                           '//span[@data-testid="seat_horizontal_sleeper_available"]')  # or //span[@data-testid="seat_seater_available"]
+    print(f"Bus Number {i} having ", len(seats_available), "Seats.")
+    driver.find_element(By.XPATH, '//div[text()="Hide Seats"]').click()
+    # scroll_rate += 200
+
 driver.quit()
