@@ -2,6 +2,7 @@ import pytest
 
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+
 from Library import configure
 
 
@@ -19,7 +20,7 @@ def init_driver(request):
 
     driver.maximize_window()
     driver.implicitly_wait(10)
-    driver.get(configure.Configure.URL)
+    driver.get(configure.Configuration.URL)
     yield driver
     driver.close()
 

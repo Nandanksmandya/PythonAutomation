@@ -1,6 +1,5 @@
 import datetime
 
-import pytest
 
 from POM.webpage import MMT
 
