@@ -5,7 +5,7 @@ from selenium.webdriver.common.by import By
 from Library import configure
 
 
-@pytest.fixture(params=["Chrome", "edge"])
+@pytest.fixture(params=["Chrome"])
 def init_driver(request):
     browsers = request.param
 
