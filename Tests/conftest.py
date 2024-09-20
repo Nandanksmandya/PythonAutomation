@@ -1,9 +1,6 @@
 import pytest
 
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-
-from Libraryy import configure
 
 
 @pytest.fixture(params=["Chrome"])
@@ -20,7 +17,6 @@ def init_driver(request):
 
     driver.maximize_window()
     driver.implicitly_wait(10)
-    driver.get(configure.Configuration.URL)
+    driver.get(r'https://www.makemytrip.com/')
     yield driver
     driver.close()
-
