@@ -9,7 +9,7 @@ from POM.webpage import Mmt
 class TestMmt:
     counts = 0
 
-    @pytest.mark.test
+    @pytest.mark.test1
     def test_MMTwebpage(self, init_driver):
         driver = init_driver
         try:
