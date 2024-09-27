@@ -267,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726860541647</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="new make my trip on 27092024">
+      <option name="closed" value="true" />
+      <created>1727411198663</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727411198663</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,6 +295,7 @@
     <MESSAGE value="new make my trip" />
     <MESSAGE value="new make my trip on 19092024" />
     <MESSAGE value="new make my trip on 21092024" />
-    <option name="LAST_COMMIT_MESSAGE" value="new make my trip on 21092024" />
+    <MESSAGE value="new make my trip on 27092024" />
+    <option name="LAST_COMMIT_MESSAGE" value="new make my trip on 27092024" />
   </component>
 </project>
