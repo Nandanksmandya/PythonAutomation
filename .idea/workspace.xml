@@ -45,31 +45,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python tests.Python tests for test_webpage.TestMMT.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_webpage.TestMMT.test_MMTwebpage.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests for test_webpage.TestMmt.executor&quot;: &quot;Run&quot;,
-    &quot;Python tests.Python tests in test_webpage.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.conftest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.webpage.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python tests.Python tests for test_webpage.TestMMT.executor": "Run",
+    "Python tests.Python tests for test_webpage.TestMMT.test_MMTwebpage.executor": "Run",
+    "Python tests.Python tests for test_webpage.TestMmt.executor": "Run",
+    "Python tests.Python tests in test_webpage.py.executor": "Run",
+    "Python.conftest.executor": "Run",
+    "Python.webpage.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "repository"
     ],
-    &quot;GitStage.ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;module&quot;,
-      &quot;repository&quot;
+    "GitStage.ChangesTree.GroupingKeys": [
+      "directory",
+      "module",
+      "repository"
     ]
   }
-}</component>
-  <component name="RunManager" selected="Python tests.Python tests in test_webpage.py">
+}]]></component>
+  <component name="RunManager" selected="Python.conftest">
     <configuration name="conftest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PythonAutomation" />
       <option name="ENV_FILES" value="" />
@@ -154,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.conftest" />
         <item itemvalue="Python tests.Python tests in test_webpage.py" />
         <item itemvalue="Python tests.Python tests for Tests.test_webpage.TestMmt" />
         <item itemvalue="Python tests.Python tests for Tests.test_webpage" />
         <item itemvalue="Python tests.Python tests for Tests.test_webpage" />
-        <item itemvalue="Python.conftest" />
       </list>
     </recent_temporary>
   </component>
@@ -258,7 +259,15 @@
       <option name="project" value="LOCAL" />
       <updated>1726859946673</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="new make my trip on 21092024">
+      <option name="closed" value="true" />
+      <created>1726860541647</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1726860541647</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
